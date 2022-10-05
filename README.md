@@ -1,2 +1,2 @@
 # mukuchu
-A Real Estate Application
+A Real Estate Web Application
