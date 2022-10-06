@@ -1,10 +1,10 @@
 import React from 'react'
-import Navbar from './components/Navbar'
+import NavBar from './components/Navbar'
 
 const App = () => {
   return (
-    <div>
-      <Navbar/>
+    <div className="w-full h-full">
+      <NavBar/>
     </div>
   )
 }
