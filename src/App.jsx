@@ -1,10 +1,12 @@
 import React from 'react'
-import NavBar from './components/Navbar'
+import Home1 from './components/Home'
+
 
 const App = () => {
   return (
     <div className="w-full h-full">
-      <NavBar/>
+      
+      <Home1/>
     </div>
   )
 }
