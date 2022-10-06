@@ -4,13 +4,13 @@ import { BsFillCartFill,BsFillSaveFill } from 'react-icons/bs';
 import {TbTruckDelivery} from 'react-icons/tb'
 import {FaUserFriends, FaWallet} from 'react-icons/fa'
 import {MdFavorite, MdHelp} from 'react-icons/md'
-import {GiSpookyHouse,GiFamilyHouse,GiSydneyOperaHouse} from 'react-icons/gi';
+import {GiSpookyHouse,GiFamilyHouse,GiSydneyOperaHouse,GiVikingLonghouse } from 'react-icons/gi';
 import {MdMapsHomeWork} from 'react-icons/md';
 const Navbar = () => {
 const [nav, setNav] = useState(false)
 
   return (
-    <div className='max-w-[1640px] mx-auto flex justify-between items-center p-4'>
+    <div className='max-w-[1640px] mx-auto bg-[#08080800] flex justify-between items-center p-4'>
       {/* Left side */}
       <div className='flex items-center'>
         <div onClick={()=> setNav(!nav)} className='cursor-pointer'>
@@ -26,7 +26,7 @@ const [nav, setNav] = useState(false)
       </div>
 
       {/* Search Input */}
-      <div className='bg-gray-200 rounded-full flex items-center px-2 w-[200px] sm:w-[400px] lg:w-[500px]'>
+      <div className='bg-[#00000085] rounded-full flex items-center px-2 w-[200px] sm:w-[400px] lg:w-[500px]'>
         <AiOutlineSearch size={25} />
         <input
           className='bg-transparent p-2 w-full focus:outline-none'
@@ -35,7 +35,7 @@ const [nav, setNav] = useState(false)
         />
       </div>
       {/* Cart button */}
-      <button className='bg-black text-white hidden md:flex items-center py-2 rounded-full'>
+      <button className='bg-[#3b3939c9] text-white hidden md:flex items-center py-2 rounded-full'>
         <BsFillCartFill size={20} className='mr-2' /> Order
       </button>
 
@@ -61,7 +61,7 @@ const [nav, setNav] = useState(false)
                 <li className='text-xl py-4 flex'><GiSpookyHouse size={25} className="mr-4"/> Villas</li>
                 <li className='text-xl py-4 flex'><GiSydneyOperaHouse size={25} className='mr-4' />Pent Houses</li>
                 <li className='text-xl py-4 flex'><AiFillTag size={25} className='mr-4' /> Promotions</li>
-                <li className='text-xl py-4 flex'><BsFillSaveFill size={25} className='mr-4' /> Best Ones</li>
+                <li className='text-xl py-4 flex'><GiVikingLonghouse size={25} className='mr-4' /> Best Ones</li>
                 <li className='text-xl py-4 flex'><FaUserFriends size={25} className='mr-4' /> Contact Support</li>
             </ul>
         </nav>

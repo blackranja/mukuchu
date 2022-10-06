@@ -6,7 +6,7 @@ const Hero = () => {
   return (
       <div className="w-full h-screen relative">
           <video className="w-full h-full object-cover" src="https://player.vimeo.com/external/222141033.sd.mp4?s=cb4965a7d8a1845a77a7cb42b5ec05a6167744bb&profile_id=164&oauth2_token_id=57447761" autoPlay loop muted/>
-         <div className="absolute w-full h-full top-0 bg-gradient-to-r from-[#162e5281] to-[#13363677]"></div>
+         <div className="absolute w-full h-full top-0 bg-gradient-to-r from-[#00050ec5] to-[#363536a8]"></div>
          <div className="absolute top-0 w-full h-full flex flex-col justify-center text-center text-white p-4">
              <h1 className="text-3xl md:text-4xl font-bold text-white pb-4 mb-4">Real To The Taste </h1>
              <h2 className="text-2xl md:text-3xl font-bold text-[#6d6d70] pb-4">Show Case All Property Types</h2>

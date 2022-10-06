@@ -8,7 +8,7 @@ import Carousel from './Carousel';
 import Footer from './Footer';
 const Home1 = () => {
   return (
-    <div>
+<>
       <Navbar/>
       <Hero/>
     
@@ -16,7 +16,7 @@ const Home1 = () => {
       <Selects />
       <Carousel />
       <Footer/>
-    </div>
+</>
   )
 }
 
