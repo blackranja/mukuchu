@@ -11,8 +11,6 @@ const Home1 = () => {
 <>
       <Navbar/>
       <Hero/>
-    
-      <Search />
       <Selects />
       <Carousel />
       <Footer/>
