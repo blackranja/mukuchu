@@ -14,8 +14,6 @@ const Home1 = () => {
       <Hero/>
       <Items/>
       <Selects />
-      
-      <Carousel />
       <Footer/>
 </>
   )
